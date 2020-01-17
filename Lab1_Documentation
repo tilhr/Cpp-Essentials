@@ -1,0 +1,105 @@
+//Using the lab1_part1.cp file, finish implementing the three functions needed for the program to run.
+//If you managed to do this correctly, you should be able to replicate the following session:
+
+Enter the name for student #1: Patricia Perez
+Enter the age for student #1: 29
+Enter the name for student #2: Carmen
+Enter the age for student #2: 23
+Enter the name for student #3: Albert DeLeon
+Enter the age for student #3: 16
+Enter the name for student #4: Brandon W Perry
+Enter the age for student #4: 54
+Enter the name for student #5: Nicole Henderson
+Enter the age for student #5: 30
+Student #1
+    Name: Patricia Perez
+    Age: 29
+
+Student #2
+    Name: Carmen
+    Age: 23
+
+Student #3
+    Name: Albert DeLeon
+    Age: 18
+
+Student #4
+    Name: Brandon W Perry
+    Age: 50
+
+Student #5
+    Name: Nicole Henderson
+    Age: 30
+    
+    
+//For the second part of the lab, the first thing to do is implement a Student class. 
+//You need to use class separation (i.e., create a Student.h and a Student.cpp file) and have include guards. 
+//The UML diagram for the Student class is as follows:
+
+//UML diagram for Student class:
+
+  /*Student
+---------------
+- name : string
+- age : int
+---------------
++ Student()
++ ~Student()
++ setName(s : string) : void
++ setAge(i : int) : void
++ getName() const : string
++ getAge() const : int
+
+
+The implementation details should be straightforward. 
+To avoid having empty bodies for the constructor and destructor, you should write a cout statement in each of them. 
+For the constructor, make it display the message "Student object created!". 
+For the destructor, make it display the message "Student object destroyed!".
+
+After creating the Student class, turn your attention to a modified versionPreview the document of the main file from part one. 
+Once again, you will need to finish implementing the three functions needed for the program to run.
+
+If you managed to do this correctly, you should be able to replicate the following session:
+*/
+
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Student object created!
+Enter the name for student #1: Patricia Perez
+Enter the age for student #1: 29
+Enter the name for student #2: Carmen
+Enter the age for student #2: 23
+Enter the name for student #3: Albert DeLeon
+Enter the age for student #3: 16
+Enter the name for student #4: Brandon W Perry
+Enter the age for student #4: 54
+Enter the name for student #5: Nicole Henderson
+Enter the age for student #5: 30
+Student #1
+    Name: Patricia Perez
+    Age: 29
+
+Student #2
+    Name: Carmen
+    Age: 23
+
+Student #3
+    Name: Albert DeLeon
+    Age: 18
+
+Student #4
+    Name: Brandon W Perry
+    Age: 50
+
+Student #5
+    Name: Nicole Henderson
+    Age: 30
+
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+Student object destroyed!
+
